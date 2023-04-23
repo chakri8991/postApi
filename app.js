@@ -54,3 +54,4 @@ app.post("/movies/", async (request, response) => {
   const dbResponse = await db.run(postQuery);
   response.send("Movie Successfully Added");
 });
+module.exports=app
